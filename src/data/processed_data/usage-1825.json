@@ -1,0 +1,1520 @@
+{
+  "Kingambit": {
+    "usage": 0.4860382
+  },
+  "Great Tusk": {
+    "usage": 0.47117289999999995
+  },
+  "Iron Valiant": {
+    "usage": 0.3005173
+  },
+  "Gholdengo": {
+    "usage": 0.28323149999999997
+  },
+  "Samurott-Hisui": {
+    "usage": 0.252661
+  },
+  "Ting-Lu": {
+    "usage": 0.2468835
+  },
+  "Zapdos": {
+    "usage": 0.23760840000000003
+  },
+  "Slowking-Galar": {
+    "usage": 0.2172334
+  },
+  "Landorus-Therian": {
+    "usage": 0.19747430000000002
+  },
+  "Baxcalibur": {
+    "usage": 0.1939256
+  },
+  "Dragapult": {
+    "usage": 0.1853447
+  },
+  "Walking Wake": {
+    "usage": 0.1475572
+  },
+  "Cinderace": {
+    "usage": 0.139985
+  },
+  "Dondozo": {
+    "usage": 0.1323559
+  },
+  "Iron Moth": {
+    "usage": 0.12126200000000001
+  },
+  "Zamazenta": {
+    "usage": 0.1187008
+  },
+  "Greninja": {
+    "usage": 0.113575
+  },
+  "Toxapex": {
+    "usage": 0.0971308
+  },
+  "Corviknight": {
+    "usage": 0.09662219999999999
+  },
+  "Amoonguss": {
+    "usage": 0.09247109999999999
+  },
+  "Sneasler": {
+    "usage": 0.09077489999999999
+  },
+  "Dragonite": {
+    "usage": 0.08866070000000001
+  },
+  "Garganacl": {
+    "usage": 0.0844722
+  },
+  "Enamorus": {
+    "usage": 0.0797983
+  },
+  "Clodsire": {
+    "usage": 0.0776336
+  },
+  "Torkoal": {
+    "usage": 0.0764037
+  },
+  "Moltres": {
+    "usage": 0.0686349
+  },
+  "Meowscarada": {
+    "usage": 0.0649786
+  },
+  "Sandy Shocks": {
+    "usage": 0.0641261
+  },
+  "Brute Bonnet": {
+    "usage": 0.0607309
+  },
+  "Heatran": {
+    "usage": 0.0602883
+  },
+  "Glimmora": {
+    "usage": 0.052565
+  },
+  "Cresselia": {
+    "usage": 0.052235699999999996
+  },
+  "Rotom-Wash": {
+    "usage": 0.050702
+  },
+  "Blissey": {
+    "usage": 0.0494543
+  },
+  "Alomomola": {
+    "usage": 0.0437235
+  },
+  "Azumarill": {
+    "usage": 0.041746
+  },
+  "Hatterene": {
+    "usage": 0.0402021
+  },
+  "Hoopa-Unbound": {
+    "usage": 0.040123400000000004
+  },
+  "Pelipper": {
+    "usage": 0.034239099999999995
+  },
+  "Iron Treads": {
+    "usage": 0.0323467
+  },
+  "Roaring Moon": {
+    "usage": 0.0312091
+  },
+  "Garchomp": {
+    "usage": 0.027664
+  },
+  "Cyclizar": {
+    "usage": 0.0251887
+  },
+  "Rillaboom": {
+    "usage": 0.023128000000000003
+  },
+  "Basculegion": {
+    "usage": 0.0230773
+  },
+  "Ursaluna": {
+    "usage": 0.022867600000000002
+  },
+  "Lilligant-Hisui": {
+    "usage": 0.021056599999999998
+  },
+  "Thundurus-Therian": {
+    "usage": 0.0209328
+  },
+  "Iron Jugulis": {
+    "usage": 0.020762700000000002
+  },
+  "Skeledirge": {
+    "usage": 0.020697399999999998
+  },
+  "Maushold": {
+    "usage": 0.0200625
+  },
+  "Scream Tail": {
+    "usage": 0.0191395
+  },
+  "Volcanion": {
+    "usage": 0.017567600000000003
+  },
+  "Tinkaton": {
+    "usage": 0.0162174
+  },
+  "Iron Hands": {
+    "usage": 0.0162153
+  },
+  "Scizor": {
+    "usage": 0.0158723
+  },
+  "Breloom": {
+    "usage": 0.0139252
+  },
+  "Enamorus-Therian": {
+    "usage": 0.0135496
+  },
+  "Goodra-Hisui": {
+    "usage": 0.011966699999999999
+  },
+  "Muk-Alola": {
+    "usage": 0.0118614
+  },
+  "Ceruledge": {
+    "usage": 0.011174
+  },
+  "Wo-Chien": {
+    "usage": 0.0095596
+  },
+  "Tornadus-Therian": {
+    "usage": 0.009157
+  },
+  "Slowking": {
+    "usage": 0.0077041
+  },
+  "Indeedee": {
+    "usage": 0.0075531
+  },
+  "Armarouge": {
+    "usage": 0.0073831
+  },
+  "Hydreigon": {
+    "usage": 0.0071109
+  },
+  "Polteageist": {
+    "usage": 0.0068784
+  },
+  "Grimmsnarl": {
+    "usage": 0.006615299999999999
+  },
+  "Moltres-Galar": {
+    "usage": 0.0061545
+  },
+  "Floatzel": {
+    "usage": 0.0058433
+  },
+  "Hawlucha": {
+    "usage": 0.0056489
+  },
+  "Masquerain": {
+    "usage": 0.0055715999999999995
+  },
+  "Pincurchin": {
+    "usage": 0.0054896
+  },
+  "Talonflame": {
+    "usage": 0.0054699
+  },
+  "Pawmot": {
+    "usage": 0.0053666
+  },
+  "Quaquaval": {
+    "usage": 0.0051600000000000005
+  },
+  "Ditto": {
+    "usage": 0.0050342
+  },
+  "Gastrodon": {
+    "usage": 0.004571
+  },
+  "Braviary-Hisui": {
+    "usage": 0.004400299999999999
+  },
+  "Slowbro-Galar": {
+    "usage": 0.0042287
+  },
+  "Arcanine-Hisui": {
+    "usage": 0.0039666
+  },
+  "Slither Wing": {
+    "usage": 0.0027800999999999998
+  },
+  "Basculegion-F": {
+    "usage": 0.0026362
+  },
+  "Mew": {
+    "usage": 0.0026173999999999998
+  },
+  "Toedscruel": {
+    "usage": 0.002595
+  },
+  "Zoroark-Hisui": {
+    "usage": 0.0025016
+  },
+  "Abomasnow": {
+    "usage": 0.0024183
+  },
+  "Drifblim": {
+    "usage": 0.0020712
+  },
+  "Golduck": {
+    "usage": 0.0019797
+  },
+  "Tyranitar": {
+    "usage": 0.0019184
+  },
+  "Kleavor": {
+    "usage": 0.0018598999999999998
+  },
+  "Mimikyu": {
+    "usage": 0.0018576
+  },
+  "Oricorio-Pom-Pom": {
+    "usage": 0.0017515
+  },
+  "Iron Thorns": {
+    "usage": 0.0015509999999999999
+  },
+  "Hippowdon": {
+    "usage": 0.0014809
+  },
+  "Zapdos-Galar": {
+    "usage": 0.0013977
+  },
+  "Regidrago": {
+    "usage": 0.0013947
+  },
+  "Cloyster": {
+    "usage": 0.0013142000000000002
+  },
+  "Magnezone": {
+    "usage": 0.0012842
+  },
+  "Iron Leaves": {
+    "usage": 0.0012663
+  },
+  "Cetitan": {
+    "usage": 0.0012208
+  },
+  "Lokix": {
+    "usage": 0.0011987
+  },
+  "Frosmoth": {
+    "usage": 0.0011474
+  },
+  "Chesnaught": {
+    "usage": 0.0010807
+  },
+  "Toxtricity": {
+    "usage": 0.0010781
+  },
+  "Sylveon": {
+    "usage": 0.00105
+  },
+  "Gardevoir": {
+    "usage": 0.0010393
+  },
+  "Articuno-Galar": {
+    "usage": 0.0010387
+  },
+  "Weavile": {
+    "usage": 0.0010302
+  },
+  "Haxorus": {
+    "usage": 0.0010029000000000001
+  },
+  "Rotom-Heat": {
+    "usage": 0.0009128999999999999
+  },
+  "Barraskewda": {
+    "usage": 0.0008699999999999999
+  },
+  "Kricketune": {
+    "usage": 0.0008337
+  },
+  "Electrode-Hisui": {
+    "usage": 0.0008319
+  },
+  "Dudunsparce": {
+    "usage": 0.0008265999999999999
+  },
+  "Decidueye-Hisui": {
+    "usage": 0.0008265
+  },
+  "Slowbro": {
+    "usage": 0.0008103
+  },
+  "Quagsire": {
+    "usage": 0.000808
+  },
+  "Lilligant": {
+    "usage": 0.0007739
+  },
+  "Froslass": {
+    "usage": 0.0007716000000000001
+  },
+  "Kilowattrel": {
+    "usage": 0.0007598
+  },
+  "Azelf": {
+    "usage": 0.0007006
+  },
+  "Klefki": {
+    "usage": 0.0006865
+  },
+  "Gallade": {
+    "usage": 0.000671
+  },
+  "Sawsbuck": {
+    "usage": 0.000669
+  },
+  "Gengar": {
+    "usage": 0.0006443999999999999
+  },
+  "Lycanroc-Dusk": {
+    "usage": 0.0006443999999999999
+  },
+  "Forretress": {
+    "usage": 0.0006297999999999999
+  },
+  "Tauros-Paldea-Blaze": {
+    "usage": 0.0005965
+  },
+  "Thundurus": {
+    "usage": 0.0005938
+  },
+  "Arboliva": {
+    "usage": 0.0005924
+  },
+  "Typhlosion-Hisui": {
+    "usage": 0.0005886999999999999
+  },
+  "Delphox": {
+    "usage": 0.000562
+  },
+  "Tatsugiri": {
+    "usage": 0.0005412
+  },
+  "Meloetta": {
+    "usage": 0.00052
+  },
+  "Overqwil": {
+    "usage": 0.0004827
+  },
+  "Tauros-Paldea-Aqua": {
+    "usage": 0.00046510000000000003
+  },
+  "Altaria": {
+    "usage": 0.0004623
+  },
+  "Skuntank": {
+    "usage": 0.0004623
+  },
+  "Gyarados": {
+    "usage": 0.0004613
+  },
+  "Grafaiai": {
+    "usage": 0.0004453
+  },
+  "Slaking": {
+    "usage": 0.00044290000000000003
+  },
+  "Glaceon": {
+    "usage": 0.00044130000000000005
+  },
+  "Orthworm": {
+    "usage": 0.0004391
+  },
+  "Flapple": {
+    "usage": 0.0004321
+  },
+  "Houndstone": {
+    "usage": 0.0004222
+  },
+  "Chansey": {
+    "usage": 0.00041369999999999997
+  },
+  "Lucario": {
+    "usage": 0.00037600000000000003
+  },
+  "Salamence": {
+    "usage": 0.00034750000000000004
+  },
+  "Bronzong": {
+    "usage": 0.0003096
+  },
+  "Glastrier": {
+    "usage": 0.0002858
+  },
+  "Zarude": {
+    "usage": 0.000279
+  },
+  "Umbreon": {
+    "usage": 0.0002725
+  },
+  "Tornadus": {
+    "usage": 0.0002702
+  },
+  "Uxie": {
+    "usage": 0.000261
+  },
+  "Spidops": {
+    "usage": 0.0002542
+  },
+  "Staraptor": {
+    "usage": 0.0002518
+  },
+  "Sableye": {
+    "usage": 0.0002459
+  },
+  "Charizard": {
+    "usage": 0.0002459
+  },
+  "Farigiraf": {
+    "usage": 0.00024209999999999998
+  },
+  "Jolteon": {
+    "usage": 0.00023810000000000001
+  },
+  "Primeape": {
+    "usage": 0.00023689999999999998
+  },
+  "Dragalge": {
+    "usage": 0.0002356
+  },
+  "Florges": {
+    "usage": 0.0002239
+  },
+  "Brambleghast": {
+    "usage": 0.00022179999999999997
+  },
+  "Whiscash": {
+    "usage": 0.0002165
+  },
+  "Bisharp": {
+    "usage": 0.0001882
+  },
+  "Avalugg": {
+    "usage": 0.00018669999999999998
+  },
+  "Scovillain": {
+    "usage": 0.0001849
+  },
+  "Avalugg-Hisui": {
+    "usage": 0.0001819
+  },
+  "Persian-Alola": {
+    "usage": 0.00017940000000000002
+  },
+  "Starly": {
+    "usage": 0.0001788
+  },
+  "Beartic": {
+    "usage": 0.0001771
+  },
+  "Flamigo": {
+    "usage": 0.0001742
+  },
+  "Noivern": {
+    "usage": 0.000171
+  },
+  "Drednaw": {
+    "usage": 0.00016439999999999998
+  },
+  "Bellibolt": {
+    "usage": 0.0001568
+  },
+  "Espeon": {
+    "usage": 0.0001548
+  },
+  "Diancie": {
+    "usage": 0.0001457
+  },
+  "Donphan": {
+    "usage": 0.0001317
+  },
+  "Salazzle": {
+    "usage": 0.0001304
+  },
+  "Arcanine": {
+    "usage": 0.0001197
+  },
+  "Inteleon": {
+    "usage": 0.0001133
+  },
+  "Eelektross": {
+    "usage": 0.0001055
+  },
+  "Mismagius": {
+    "usage": 0.0000954
+  },
+  "Tsareena": {
+    "usage": 0.0000913
+  },
+  "Indeedee-F": {
+    "usage": 0.00008800000000000001
+  },
+  "Raichu-Alola": {
+    "usage": 0.00008170000000000001
+  },
+  "Rabsca": {
+    "usage": 0.0000806
+  },
+  "Vaporeon": {
+    "usage": 0.00007609999999999999
+  },
+  "Wooper": {
+    "usage": 0.0000752
+  },
+  "Pikachu": {
+    "usage": 0.0000709
+  },
+  "Appletun": {
+    "usage": 0.0000664
+  },
+  "Goodra": {
+    "usage": 0.000065
+  },
+  "Revavroom": {
+    "usage": 0.0000646
+  },
+  "Typhlosion": {
+    "usage": 0.0000622
+  },
+  "Smoliv": {
+    "usage": 0.000057999999999999994
+  },
+  "Decidueye": {
+    "usage": 0.000057999999999999994
+  },
+  "Veluza": {
+    "usage": 0.0000575
+  },
+  "Rotom-Mow": {
+    "usage": 0.000057400000000000006
+  },
+  "Bombirdier": {
+    "usage": 0.0000566
+  },
+  "Ursaring": {
+    "usage": 0.0000562
+  },
+  "Lycanroc": {
+    "usage": 0.0000549
+  },
+  "Mabosstiff": {
+    "usage": 0.0000543
+  },
+  "Mesprit": {
+    "usage": 0.000050600000000000003
+  },
+  "Heracross": {
+    "usage": 0.000049699999999999995
+  },
+  "Copperajah": {
+    "usage": 0.0000467
+  },
+  "Wigglytuff": {
+    "usage": 0.000043299999999999995
+  },
+  "Oricorio-Sensu": {
+    "usage": 0.000041599999999999995
+  },
+  "Cryogonal": {
+    "usage": 0.0000382
+  },
+  "Rotom-Frost": {
+    "usage": 0.000038
+  },
+  "Honchkrow": {
+    "usage": 0.000036
+  },
+  "Wyrdeer": {
+    "usage": 0.0000359
+  },
+  "Articuno": {
+    "usage": 0.0000359
+  },
+  "Flittle": {
+    "usage": 0.000035799999999999996
+  },
+  "Vespiquen": {
+    "usage": 0.0000348
+  },
+  "Eiscue": {
+    "usage": 0.000034
+  },
+  "Dachsbun": {
+    "usage": 0.0000315
+  },
+  "Gogoat": {
+    "usage": 0.0000314
+  },
+  "Klawf": {
+    "usage": 0.0000313
+  },
+  "Clawitzer": {
+    "usage": 0.0000294
+  },
+  "Tauros": {
+    "usage": 0.0000284
+  },
+  "Hoopa": {
+    "usage": 0.0000283
+  },
+  "Krookodile": {
+    "usage": 0.0000266
+  },
+  "Houndoom": {
+    "usage": 0.0000264
+  },
+  "Dolliv": {
+    "usage": 0.000026099999999999997
+  },
+  "Swalot": {
+    "usage": 0.000025600000000000002
+  },
+  "Qwilfish-Hisui": {
+    "usage": 0.0000254
+  },
+  "Magneton": {
+    "usage": 0.0000247
+  },
+  "Bruxish": {
+    "usage": 0.000023999999999999997
+  },
+  "Hariyama": {
+    "usage": 0.000023
+  },
+  "Electrode": {
+    "usage": 0.0000222
+  },
+  "Palossand": {
+    "usage": 0.0000219
+  },
+  "Spiritomb": {
+    "usage": 0.0000212
+  },
+  "Medicham": {
+    "usage": 0.000021099999999999998
+  },
+  "Persian": {
+    "usage": 0.00002
+  },
+  "Carbink": {
+    "usage": 0.0000192
+  },
+  "Venomoth": {
+    "usage": 0.0000192
+  },
+  "Lurantis": {
+    "usage": 0.000018500000000000002
+  },
+  "Perrserker": {
+    "usage": 0.0000181
+  },
+  "Leafeon": {
+    "usage": 0.0000173
+  },
+  "Vivillon": {
+    "usage": 0.0000165
+  },
+  "Mudsdale": {
+    "usage": 0.0000165
+  },
+  "Zoroark": {
+    "usage": 0.000016
+  },
+  "Ampharos": {
+    "usage": 0.0000159
+  },
+  "Crabominable": {
+    "usage": 0.000014499999999999998
+  },
+  "Glimmet": {
+    "usage": 0.0000141
+  },
+  "Dunsparce": {
+    "usage": 0.0000141
+  },
+  "Raichu": {
+    "usage": 0.0000121
+  },
+  "Wugtrio": {
+    "usage": 0.0000121
+  },
+  "Sandaconda": {
+    "usage": 0.0000115
+  },
+  "Tropius": {
+    "usage": 0.0000112
+  },
+  "Zangoose": {
+    "usage": 0.0000106
+  },
+  "Lumineon": {
+    "usage": 0.0000101
+  },
+  "Cacturne": {
+    "usage": 0.0000092
+  },
+  "Delibird": {
+    "usage": 0.0000092
+  },
+  "Toxicroak": {
+    "usage": 0.000009
+  },
+  "Flareon": {
+    "usage": 0.000009
+  },
+  "Dugtrio-Alola": {
+    "usage": 0.0000089
+  },
+  "Coalossal": {
+    "usage": 0.0000087
+  },
+  "Oricorio": {
+    "usage": 0.0000085
+  },
+  "Lycanroc-Midnight": {
+    "usage": 0.0000082
+  },
+  "Haunter": {
+    "usage": 0.0000081
+  },
+  "Scyther": {
+    "usage": 0.0000078
+  },
+  "Falinks": {
+    "usage": 0.0000075
+  },
+  "Jumpluff": {
+    "usage": 0.0000068
+  },
+  "Vigoroth": {
+    "usage": 0.0000068
+  },
+  "Murkrow": {
+    "usage": 0.0000066
+  },
+  "Sunflora": {
+    "usage": 0.0000065
+  },
+  "Calyrex": {
+    "usage": 0.0000061
+  },
+  "Squawkabilly": {
+    "usage": 0.000005999999999999999
+  },
+  "Qwilfish": {
+    "usage": 0.0000059
+  },
+  "Misdreavus": {
+    "usage": 0.0000059
+  },
+  "Tinkatuff": {
+    "usage": 0.0000057
+  },
+  "Muk": {
+    "usage": 0.0000057
+  },
+  "Komala": {
+    "usage": 0.0000053
+  },
+  "Flaaffy": {
+    "usage": 0.0000051
+  },
+  "Tarountula": {
+    "usage": 0.000005
+  },
+  "Sneasel-Hisui": {
+    "usage": 0.0000042999999999999995
+  },
+  "Girafarig": {
+    "usage": 0.0000042999999999999995
+  },
+  "Dugtrio": {
+    "usage": 0.0000039
+  },
+  "Hattrem": {
+    "usage": 0.0000032000000000000003
+  },
+  "Gumshoos": {
+    "usage": 0.0000031
+  },
+  "Dedenne": {
+    "usage": 0.0000029
+  },
+  "Psyduck": {
+    "usage": 0.0000029
+  },
+  "Seviper": {
+    "usage": 0.0000027
+  },
+  "Passimian": {
+    "usage": 0.0000025999999999999997
+  },
+  "Sudowoodo": {
+    "usage": 0.0000024
+  },
+  "Pachirisu": {
+    "usage": 0.0000024
+  },
+  "Camerupt": {
+    "usage": 0.0000023
+  },
+  "Oranguru": {
+    "usage": 0.0000022
+  },
+  "Hatenna": {
+    "usage": 0.0000019
+  },
+  "Glalie": {
+    "usage": 0.0000019
+  },
+  "Naclstack": {
+    "usage": 0.0000019
+  },
+  "Frogadier": {
+    "usage": 0.0000017
+  },
+  "Gothitelle": {
+    "usage": 0.0000017
+  },
+  "Sneasel": {
+    "usage": 0.0000017
+  },
+  "Fletchinder": {
+    "usage": 0.0000017
+  },
+  "Greedent": {
+    "usage": 0.0000017
+  },
+  "Stantler": {
+    "usage": 0.0000017
+  },
+  "Floette": {
+    "usage": 0.0000017
+  },
+  "Pyroar": {
+    "usage": 0.0000016000000000000001
+  },
+  "Rotom-Fan": {
+    "usage": 0.0000012999999999999998
+  },
+  "Samurott": {
+    "usage": 0.0000012999999999999998
+  },
+  "Luxray": {
+    "usage": 0.0000012999999999999998
+  },
+  "Dewott": {
+    "usage": 0.000001
+  },
+  "Basculin": {
+    "usage": 0.000001
+  },
+  "Braviary": {
+    "usage": 9.000000000000001e-7
+  },
+  "Banette": {
+    "usage": 9.000000000000001e-7
+  },
+  "Toedscool": {
+    "usage": 8.000000000000001e-7
+  },
+  "Hypno": {
+    "usage": 8.000000000000001e-7
+  },
+  "Oinkologne": {
+    "usage": 7e-7
+  },
+  "Pawniard": {
+    "usage": 6e-7
+  },
+  "Oinkologne-F": {
+    "usage": 6e-7
+  },
+  "Sliggoo-Hisui": {
+    "usage": 5e-7
+  },
+  "Grumpig": {
+    "usage": 5e-7
+  },
+  "Sliggoo": {
+    "usage": 4.0000000000000003e-7
+  },
+  "Surskit": {
+    "usage": 4.0000000000000003e-7
+  },
+  "Wooper-Paldea": {
+    "usage": 4.0000000000000003e-7
+  },
+  "Eevee": {
+    "usage": 4.0000000000000003e-7
+  },
+  "Staravia": {
+    "usage": 3e-7
+  },
+  "Mankey": {
+    "usage": 3e-7
+  },
+  "Frigibax": {
+    "usage": 3e-7
+  },
+  "Phanpy": {
+    "usage": 3e-7
+  },
+  "Finizen": {
+    "usage": 3e-7
+  },
+  "Corvisquire": {
+    "usage": 3e-7
+  },
+  "Carkol": {
+    "usage": 2.0000000000000002e-7
+  },
+  "Wingull": {
+    "usage": 2.0000000000000002e-7
+  },
+  "Skiploom": {
+    "usage": 2.0000000000000002e-7
+  },
+  "Oricorio-Pa'u": {
+    "usage": 2.0000000000000002e-7
+  },
+  "Gabite": {
+    "usage": 2.0000000000000002e-7
+  },
+  "Charmander": {
+    "usage": 2.0000000000000002e-7
+  },
+  "Charcadet": {
+    "usage": 2.0000000000000002e-7
+  },
+  "Crocalor": {
+    "usage": 2.0000000000000002e-7
+  },
+  "Arctibax": {
+    "usage": 2.0000000000000002e-7
+  },
+  "Rotom": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Zweilous": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Luvdisc": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Gastly": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Quaxwell": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Tauros-Paldea-Combat": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Floragato": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Dragonair": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Meowth-Alola": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Gulpin": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Kirlia": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Drakloak": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Impidimp": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Zorua-Hisui": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Mudbray": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Magnemite": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Pineco": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Raboot": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Dartrix": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Bonsly": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Magikarp": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Fraxure": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Riolu": {
+    "usage": 1.0000000000000001e-7
+  },
+  "Jigglypuff": {
+    "usage": 0
+  },
+  "Lechonk": {
+    "usage": 0
+  },
+  "Wattrel": {
+    "usage": 0
+  },
+  "Hippopotas": {
+    "usage": 0
+  },
+  "Stonjourner": {
+    "usage": 0
+  },
+  "Shelgon": {
+    "usage": 0
+  },
+  "Pupitar": {
+    "usage": 0
+  },
+  "Applin": {
+    "usage": 0
+  },
+  "Bramblin": {
+    "usage": 0
+  },
+  "Shroodle": {
+    "usage": 0
+  },
+  "Arrokuda": {
+    "usage": 0
+  },
+  "Pichu": {
+    "usage": 0
+  },
+  "Yungoos": {
+    "usage": 0
+  },
+  "Bergmite": {
+    "usage": 0
+  },
+  "Shellder": {
+    "usage": 0
+  },
+  "Cacnea": {
+    "usage": 0
+  },
+  "Azurill": {
+    "usage": 0
+  },
+  "Ralts": {
+    "usage": 0
+  },
+  "Sunkern": {
+    "usage": 0
+  },
+  "Snom": {
+    "usage": 0
+  },
+  "Kricketot": {
+    "usage": 0
+  },
+  "Charmeleon": {
+    "usage": 0
+  },
+  "Mareep": {
+    "usage": 0
+  },
+  "Tynamo": {
+    "usage": 0
+  },
+  "Foongus": {
+    "usage": 0
+  },
+  "Rookidee": {
+    "usage": 0
+  },
+  "Krokorok": {
+    "usage": 0
+  },
+  "Thwackey": {
+    "usage": 0
+  },
+  "Eelektrik": {
+    "usage": 0
+  },
+  "Morgrem": {
+    "usage": 0
+  },
+  "Slowpoke-Galar": {
+    "usage": 0
+  },
+  "Houndour": {
+    "usage": 0
+  },
+  "Greavard": {
+    "usage": 0
+  },
+  "Shroomish": {
+    "usage": 0
+  },
+  "Numel": {
+    "usage": 0
+  },
+  "Makuhita": {
+    "usage": 0
+  },
+  "Voltorb-Hisui": {
+    "usage": 0
+  },
+  "Tandemaus": {
+    "usage": 0
+  },
+  "Drifloon": {
+    "usage": 0
+  },
+  "Rolycoly": {
+    "usage": 0
+  },
+  "Larvitar": {
+    "usage": 0
+  },
+  "Buizel": {
+    "usage": 0
+  },
+  "Grookey": {
+    "usage": 0
+  },
+  "Swablu": {
+    "usage": 0
+  },
+  "Venonat": {
+    "usage": 0
+  },
+  "Bounsweet": {
+    "usage": 0
+  },
+  "Chewtle": {
+    "usage": 0
+  },
+  "Grimer-Alola": {
+    "usage": 0
+  },
+  "Oshawott": {
+    "usage": 0
+  },
+  "Dratini": {
+    "usage": 0
+  },
+  "Salandit": {
+    "usage": 0
+  },
+  "Axew": {
+    "usage": 0
+  },
+  "Cyndaquil": {
+    "usage": 0
+  },
+  "Rowlet": {
+    "usage": 0
+  },
+  "Rockruff": {
+    "usage": 0
+  },
+  "Nymble": {
+    "usage": 0
+  },
+  "Fomantis": {
+    "usage": 0
+  },
+  "Gothita": {
+    "usage": 0
+  },
+  "Fuecoco": {
+    "usage": 0
+  },
+  "Gimmighoul": {
+    "usage": 0
+  },
+  "Shinx": {
+    "usage": 0
+  },
+  "Zorua": {
+    "usage": 0
+  },
+  "Sandile": {
+    "usage": 0
+  },
+  "Rufflet": {
+    "usage": 0
+  },
+  "Spoink": {
+    "usage": 0
+  },
+  "Voltorb": {
+    "usage": 0
+  },
+  "Diglett": {
+    "usage": 0
+  },
+  "Cubchoo": {
+    "usage": 0
+  },
+  "Rellor": {
+    "usage": 0
+  },
+  "Larvesta": {
+    "usage": 0
+  },
+  "Mareanie": {
+    "usage": 0
+  },
+  "Growlithe": {
+    "usage": 0
+  },
+  "Shuppet": {
+    "usage": 0
+  },
+  "Bronzor": {
+    "usage": 0
+  },
+  "Meowth-Galar": {
+    "usage": 0
+  },
+  "Shellos": {
+    "usage": 0
+  },
+  "Crabrawler": {
+    "usage": 0
+  },
+  "Kubfu": {
+    "usage": 0
+  },
+  "Marill": {
+    "usage": 0
+  },
+  "Braixen": {
+    "usage": 0
+  },
+  "Cetoddle": {
+    "usage": 0
+  },
+  "Stunky": {
+    "usage": 0
+  },
+  "Capsakid": {
+    "usage": 0
+  },
+  "Sprigatito": {
+    "usage": 0
+  },
+  "Fletchling": {
+    "usage": 0
+  },
+  "Luxio": {
+    "usage": 0
+  },
+  "Scorbunny": {
+    "usage": 0
+  },
+  "Nacli": {
+    "usage": 0
+  },
+  "Litleo": {
+    "usage": 0
+  },
+  "Quilava": {
+    "usage": 0
+  },
+  "Growlithe-Hisui": {
+    "usage": 0
+  },
+  "Silicobra": {
+    "usage": 0
+  },
+  "Cufant": {
+    "usage": 0
+  },
+  "Fennekin": {
+    "usage": 0
+  },
+  "Meditite": {
+    "usage": 0
+  },
+  "Quaxly": {
+    "usage": 0
+  },
+  "Snover": {
+    "usage": 0
+  },
+  "Hoppip": {
+    "usage": 0
+  },
+  "Finneon": {
+    "usage": 0
+  },
+  "Sandygast": {
+    "usage": 0
+  },
+  "Pawmi": {
+    "usage": 0
+  },
+  "Toxel": {
+    "usage": 0
+  },
+  "Steenee": {
+    "usage": 0
+  },
+  "Drowzee": {
+    "usage": 0
+  },
+  "Teddiursa": {
+    "usage": 0
+  },
+  "Gible": {
+    "usage": 0
+  },
+  "Igglybuff": {
+    "usage": 0
+  },
+  "Quilladin": {
+    "usage": 0
+  },
+  "Dreepy": {
+    "usage": 0
+  },
+  "Sobble": {
+    "usage": 0
+  },
+  "Pawmo": {
+    "usage": 0
+  },
+  "Chespin": {
+    "usage": 0
+  },
+  "Deerling": {
+    "usage": 0
+  },
+  "Gothorita": {
+    "usage": 0
+  },
+  "Bagon": {
+    "usage": 0
+  },
+  "Sinistea": {
+    "usage": 0
+  },
+  "Froakie": {
+    "usage": 0
+  },
+  "Slowpoke": {
+    "usage": 0
+  },
+  "Slakoth": {
+    "usage": 0
+  },
+  "Drizzile": {
+    "usage": 0
+  },
+  "Fidough": {
+    "usage": 0
+  },
+  "Croagunk": {
+    "usage": 0
+  },
+  "Meowth": {
+    "usage": 0
+  },
+  "Grimer": {
+    "usage": 0
+  },
+  "Wiglett": {
+    "usage": 0
+  },
+  "Varoom": {
+    "usage": 0
+  },
+  "Goomy": {
+    "usage": 0
+  },
+  "Barboach": {
+    "usage": 0
+  },
+  "Tinkatink": {
+    "usage": 0
+  },
+  "Tadbulb": {
+    "usage": 0
+  },
+  "Noibat": {
+    "usage": 0
+  },
+  "Petilil": {
+    "usage": 0
+  },
+  "Skiddo": {
+    "usage": 0
+  },
+  "Maschiff": {
+    "usage": 0
+  },
+  "Deino": {
+    "usage": 0
+  },
+  "Skrelp": {
+    "usage": 0
+  },
+  "Diglett-Alola": {
+    "usage": 0
+  },
+  "Gimmighoul-Roaming": {
+    "usage": 0
+  },
+  "Clauncher": {
+    "usage": 0
+  },
+  "Spewpa": {
+    "usage": 0
+  },
+  "Happiny": {
+    "usage": 0
+  },
+  "Snorunt": {
+    "usage": 0
+  },
+  "Skwovet": {
+    "usage": 0
+  },
+  "Combee": {
+    "usage": 0
+  },
+  "Scatterbug": {
+    "usage": 0
+  },
+  "Flabebe": {
+    "usage": 0
+  }
+}

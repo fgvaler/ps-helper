@@ -1,0 +1,60 @@
+Zamazenta @ Expert Belt  
+Ability: Dauntless Shield  
+Tera Type: Poison  
+EVs: 172 HP / 252 Atk / 84 Spe  
+Adamant Nature  
+- Crunch  
+- Stone Edge  
+- Close Combat  
+- Iron Head  
+
+Hoopa-Unbound @ Choice Specs  
+Ability: Magician  
+Tera Type: Poison  
+EVs: 252 HP / 4 Atk / 252 Spe  
+Hasty Nature  
+- Psychic  
+- Gunk Shot  
+- Hyperspace Fury  
+- Thunderbolt  
+
+Glastrier @ Assault Vest  
+Ability: Chilling Neigh  
+Tera Type: Flying  
+EVs: 252 HP / 4 Atk / 252 SpD  
+Careful Nature  
+- Avalanche  
+- Close Combat  
+- Stomping Tantrum  
+- Heavy Slam  
+
+Cresselia @ Expert Belt  
+Ability: Levitate  
+Tera Type: Fairy  
+EVs: 4 HP / 252 Def / 252 SpA  
+Modest Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Moonblast  
+- Ice Beam  
+- Moonlight  
+
+Flamigo @ Choice Scarf  
+Ability: Scrappy  
+Tera Type: Flying  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Close Combat  
+- Throat Chop  
+- Brave Bird  
+- U-turn  
+
+Azumarill @ Rocky Helmet  
+Ability: Thick Fat  
+Tera Type: Water  
+EVs: 252 Atk / 240 Def / 16 Spe  
+Adamant Nature  
+- Aqua Jet  
+- Liquidation  
+- Brick Break  
+- Play Rough  
