@@ -1,6 +1,8 @@
 
 import { Generations, Move, Pokemon, calculate } from '@ajhyndman/smogon-calc';
 import { Teams } from '@/lib/showdown/sim/teams';
+import { toLower } from 'lodash';
+import { getNumber, pokemonID } from './pokedex';
 
 export const gen = Generations.get(9);
 
@@ -78,4 +80,17 @@ export const min_damage = (attacker: Pokemon, defender: Pokemon, move: string) =
 	} else {
 		return damage_perc
 	}
+}
+
+
+export const isLetter = (str:string) => {
+    return str.length === 1 && str.match(/[a-z]/i);
+}
+
+export const convertToShowdownDexName = (name: pokemonID) => {
+    return name.split('').filter(isLetter).map(toLower).join('')
+}
+
+export const getSpriteDir = (name: pokemonID) => {
+    return `/sprites/${getNumber(name)}.png`
 }

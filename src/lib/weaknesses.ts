@@ -2,7 +2,7 @@
 import sortBy from 'lodash/sortBy';
 import map from 'lodash/map';
 import { Pokemon } from '@ajhyndman/smogon-calc';
-import { LegalPokemon, getUsage, getMoves, pokemonID } from './pokedex';
+import { LegalPokemon, getUsage, getMoveset, pokemonID } from './pokedex';
 import { max_damage, gen, min_damage } from './utils';
 
 const NUMBER_OF_THREATS_TO_RETRIEVE = 5;
@@ -43,7 +43,7 @@ export const get_weaknesses = (team: Pokemon[]) => {
 };
 
 const minDamageToTeam = (attackerID: pokemonID, team: Pokemon[]) => {
-    const attacker_moveset = getMoves(attackerID);
+    const attacker_moveset = getMoveset(attackerID);
     const abilities = map(attacker_moveset['abilities'], 'name').filter(x=>x!=='Other');
     const items = map(attacker_moveset['items'], 'name').filter(x=>x!=='Other');
     const moves = map(attacker_moveset['moves'], 'name').filter(x=>x!=='Other');
@@ -87,7 +87,7 @@ const minDamageToTeam = (attackerID: pokemonID, team: Pokemon[]) => {
 };
 
 const maxDamageFromTeam = (defenderID: pokemonID, team: Pokemon[]) => {
-    const defender_moveset = getMoves(defenderID);
+    const defender_moveset = getMoveset(defenderID);
     const abilities = map(defender_moveset['abilities'], 'name').filter(x=>x!=='Other');
     const items = map(defender_moveset['items'], 'name').filter(x=>x!=='Other');
     const natures = ['Calm', 'Bold'];

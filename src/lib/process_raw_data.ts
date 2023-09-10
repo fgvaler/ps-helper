@@ -23,22 +23,24 @@ export const process_usage_stats = async () =>{
     return json_data;
 };
 
+export type Moveset = {
+    'abilities': {
+        'name': string,
+        'usage': number
+    }[],
+    'items': {
+        'name': string,
+        'usage': number
+    }[],
+    'spreads': string[],
+    'moves': {
+        'name': string,
+        'usage': number
+    }[],
+};
+
 export type MovesetStats = {
-    [key: string]: {
-        'abilities': {
-            'name': string,
-            'usage': number
-        }[],
-        'items': {
-            'name': string,
-            'usage': number
-        }[],
-        'spreads': string[],
-        'moves': {
-            'name': string,
-            'usage': number
-        }[],
-    }
+    [key: string]: Moveset
 };
 
 export const process_movesets = async () => {
