@@ -1,5 +1,5 @@
 
-'use client'
+'use client';
 
 import { useState } from 'react';
 
@@ -35,8 +35,6 @@ export default function Home() {
             onChange={e=>{e.preventDefault; setTeam(e.target.value)}}
           />
         </div>
-        
-        
       </div>
     </div>
   )
