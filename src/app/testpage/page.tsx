@@ -9,6 +9,7 @@ const open_sans = Open_Sans({subsets:['latin']});
 import React from "react";
 import { useReducer } from "react";
 import { Pokemon } from "@ajhyndman/smogon-calc";
+import { Padding } from "@/lib/components/padding";
 
 
 const rawTeam = `
@@ -231,12 +232,33 @@ export default function page() {
         </div>
     )
 
+    const battlefield = (
+        <div className="">
+            <div className="w-full flex justify-evenly align-center">
+                <div className="">
+                    ENEMY MON
+                    <img src={getSpriteDir(closestPokemonName('enamrous'))} />
+                </div>
+                <div>
+                    {}
+                </div>
+                <div className="">
+                    ALLY MON
+                    <img src={getSpriteDir(closestPokemonName('garchomp'))} />
+                </div>
+            </div>
+        </div>
+        
+    )
+
     return (
         <div className={"min-h-screen bg-teal-950 flex justify-center"}>
             <div className="max-w-screen-lg w-full">
                 <div className={open_sans.className}>
                     <div className="">
                         {enemyEntryBox}
+                        <div className={`py-8`}></div>
+                        {battlefield}
                         {teamEntryBox}
                     </div>
                     <div className="m-10">
