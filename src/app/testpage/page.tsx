@@ -9,7 +9,6 @@ const open_sans = Open_Sans({subsets:['latin']});
 import React from "react";
 import { useReducer } from "react";
 import { Pokemon } from "@ajhyndman/smogon-calc";
-import { Padding } from "@/lib/components/padding";
 
 
 const rawTeam = `
@@ -97,7 +96,7 @@ type PageAction = {
 } | {
     type: 'Click-PokemonBox',
     side: 'ally' | 'enemy'
-    value: number
+    value: string
 } | {
     type: 'Typing-RawTeamBox',
     value: string
@@ -127,6 +126,8 @@ const reducer = (state: PageState, action: PageAction) => {
             case 'Submit-RawTeam':
                 S.processedTeam = import_team(S.rawTeam);
                 break;
+            case 'Click-PokemonBox':
+                
             default:
                 throw Error('Unknown action: ' + action.type);
         }
@@ -139,27 +140,32 @@ type PageState = {
     rawTeam: string,
     processedTeam?: Pokemon[],
     enemyTeamNames: string[]
-    selectedTeamMon?: number,
-    selectedEnemyMon?: number,
     stage: number,
     enemyTeamEntryBox: string,
-};
+    selectedAllyMon?: string,
+    selectedEnemyMon?: string,
+}
+
+const initialState = {
+    rawTeam,
+    enemyTeamNames:[],
+    enemyTeamEntryBox: '',
+    stage: 1,
+}
 
 export default function page() {
 
-    const [S, dispatch] = useReducer(reducer, {
-        rawTeam,
-        enemyTeamNames:[],
-        enemyTeamEntryBox: '',
-        stage: 1,
-    });
+    const [S, dispatch] = useReducer(reducer, initialState);
 
     const teamEntryBox = (
         <div>
             {S.processedTeam ? 
                 <div className="flex">
                     {S.processedTeam.map((pokemon) =>
-                        <div className="hover:bg-slate-500 p-4" key={pokemon.name}>
+                        <div className="hover:bg-slate-500 p-4" key={pokemon.name} onClick={e=>{
+                            e.preventDefault();
+                            dispatch({type: 'Click-PokemonBox', side: 'ally', value: pokemon.name})
+                        }}>
                             <img src={getSpriteDir(pokemon.name)} />
                             <div>{pokemon.name}</div>
                         </div>
@@ -168,14 +174,22 @@ export default function page() {
             :
                 <div className="flex flex-col">
                     <textarea
-                        className="whitespace-pre text-white w-2/3 h-80 bg-slate-700"
+                        className="whitespace-pre text-white w-1/3 h-80 bg-slate-700"
                         onChange={e=>{
                             e.preventDefault();
                             dispatch({type: 'Typing-RawTeamBox', value:e.target.value});
                         }}
                         value={S.rawTeam}
                     />
-                    <button onClick={e=>dispatch({type:'Submit-RawTeam'})}>Submit Team</button>
+                    <div className="pt-4"></div>
+                    <div>
+                        <button className=
+                            "border border-slate-500 bg-teal-500 rounded hover:bg-teal-800 hover:text py-2 px-4"
+                            onClick={e=>dispatch({type:'Submit-RawTeam'})}>
+                            Submit Team
+                        </button>
+                    </div>
+                    
                 </div>
             }
         </div>
@@ -236,34 +250,30 @@ export default function page() {
         <div className="">
             <div className="w-full flex justify-evenly align-center">
                 <div className="">
-                    ENEMY MON
-                    <img src={getSpriteDir(closestPokemonName('enamrous'))} />
-                </div>
-                <div>
-                    {}
-                </div>
-                <div className="">
                     ALLY MON
                     <img src={getSpriteDir(closestPokemonName('garchomp'))} />
                 </div>
+                <div className="">
+                    ENEMY MON
+                    <img src={getSpriteDir(closestPokemonName('enamrous'))} />
+                </div>
             </div>
         </div>
-        
     )
 
     return (
         <div className={"min-h-screen bg-teal-950 flex justify-center"}>
             <div className="max-w-screen-lg w-full">
                 <div className={open_sans.className}>
-                    <div className="">
-                        {enemyEntryBox}
-                        <div className={`py-8`}></div>
-                        {battlefield}
-                        {teamEntryBox}
-                    </div>
-                    <div className="m-10">
-                        {movesetDisplay}
-                    </div>
+                    
+                    {enemyEntryBox}
+                    <div className="pt-4"></div>
+                    {battlefield}
+                    <div className="pt-4"></div>
+                    {teamEntryBox}
+                    <div className="pt-4"></div>
+                    {movesetDisplay}
+                    
                 </div>
             </div>
         </div>
