@@ -1,5 +1,5 @@
 
-import { damageRange, importTeam } from '@/lib/utils';
+import { damageRange, importTeam } from '@/lib/showdown_utils';
 import { NextResponse } from 'next/server'
 
 
@@ -72,6 +72,6 @@ const team = importTeam(raw_team);
 
 
 export async function GET() {
-    const data = damageRange(team[1], team[5], 'stealthrock`');
+    const data = damageRange(team[1], team[5], 'stoneedge`');
     return NextResponse.json({ data });
 }

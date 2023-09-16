@@ -211,7 +211,7 @@ type EvSpread = {
     spe: number;
 }
 
-const evSpreads:{[key: string]: EvSpread} = {
+export const evSpreads:{[key: string]: EvSpread} = {
     'Max HP, Max Def/Spd': {hp:252, atk:0, def:252, spa:0, spd:252, spe:0},
     'Max HP, Min Def/Spd': {hp:252, atk:0, def:0, spa:0, spd:0, spe:0},
     'Min HP, Max Def/Spd': {hp:0, atk:0, def:252, spa:0, spd:252, spe:0},

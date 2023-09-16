@@ -6,8 +6,7 @@ const open_sans = Open_Sans({subsets:['latin']});
 import React, { useReducer } from "react";
 
 import { reducer } from './action';
-import { PageState, derivePageContent } from './state';
-
+import { PageState, derivePageContent, evSpreads } from './state';
 
 
 const rawTeam = `
@@ -175,8 +174,9 @@ export default function page() {
                         {
                             content.matchupArea.ally.calcs !== undefined
                         ?
-                            content.matchupArea.ally.calcs.map((calcGroup, i)=><div key={i}>{
-                                calcGroup.map(calc=><div
+                            content.matchupArea.ally.calcs.map((calcGroup, i)=><div key={i}>
+                                {Object.keys(evSpreads)[i]}
+                                {calcGroup.map(calc=><div
                                     className='border border-slate-500 flex justify-between gap-4 text-black'
                                     key={calc.moveName}
                                     style={{backgroundColor: calc.color}}
@@ -187,7 +187,7 @@ export default function page() {
                             }</div>)
                         :
                             <div>
-                                need both ally and opponent to show damage calcs
+                                select two pokemon to see calcs
                             </div>
                         }
                     </div>
