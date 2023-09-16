@@ -3,12 +3,12 @@ import sortBy from 'lodash/sortBy';
 import map from 'lodash/map';
 import { Pokemon } from '@ajhyndman/smogon-calc';
 import { LegalPokemon, getUsage, getMoveset, pokemonID } from './pokedex';
-import { max_damage, gen, min_damage } from './utils';
+import { maxDamage, gen, minDamage } from './utils';
 
 const NUMBER_OF_THREATS_TO_RETRIEVE = 5;
 const RELEVANCE_USAGE_THRESHOLD = 0.01;
 
-export const get_weaknesses = (team: Pokemon[]) => {
+export const getWeaknesses = (team: Pokemon[]) => {
 
     // remove irrelevant pokemon
     const sortedOU = sortBy(LegalPokemon, [getUsage]);
@@ -72,7 +72,7 @@ const minDamageToTeam = (attackerID: pokemonID, team: Pokemon[]) => {
                         team.map(defender=>
                             Math.max(...
                                 moves.map(move=>
-                                    max_damage(attacker, defender, move)
+                                    maxDamage(attacker, defender, move)
                                 )
                             )
                         )
@@ -119,7 +119,7 @@ const maxDamageFromTeam = (defenderID: pokemonID, team: Pokemon[]) => {
                     const defending_score = 1-
                         Math.max(...team.flatMap(attacker=>
                             attacker.moves.map(move=>
-                                min_damage(attacker, defender, move)
+                                minDamage(attacker, defender, move)
                             )
                         ));
 

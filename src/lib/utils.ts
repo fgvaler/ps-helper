@@ -1,16 +1,14 @@
 
 import { Generations, Move, Pokemon, calculate } from '@ajhyndman/smogon-calc';
 import { Teams } from '@/lib/showdown/sim/teams';
-import { toLower } from 'lodash';
-import { getNumber, pokemonID } from './pokedex';
 import cloneDeep from 'lodash/cloneDeep'
 
 
 export const gen = Generations.get(9);
 
-export const import_team = (raw_team: string): Pokemon[] => {
+export const importTeam = (rawTeam: string): Pokemon[] => {
     
-    const convert_mon = (mon: PokemonSet) => (new Pokemon(
+    const convertMon = (mon: PokemonSet) => (new Pokemon(
         gen,
         mon.species,
         {
@@ -22,22 +20,22 @@ export const import_team = (raw_team: string): Pokemon[] => {
             moves: mon.moves,
         }
     ));
-    const team = Teams.import(raw_team);
+    const team = Teams.import(rawTeam);
     if(!team){
         throw new Error('failed to import teams');
     };
-    return team.map(convert_mon);
+    return team.map(convertMon);
 };
 
-export const max_damage = (attacker: Pokemon, defender: Pokemon, move: string) => {
-    return damage_range(attacker, defender, move).max;
+export const maxDamage = (attacker: Pokemon, defender: Pokemon, move: string) => {
+    return damageRange(attacker, defender, move).max;
 }
 
-export const min_damage = (attacker: Pokemon, defender: Pokemon, move: string) => {
-    return damage_range(attacker, defender, move).min;
+export const minDamage = (attacker: Pokemon, defender: Pokemon, move: string) => {
+    return damageRange(attacker, defender, move).min;
 }
 
-export const damage_range = (attacker: Pokemon, defender: Pokemon, move: string) => {
+export const damageRange = (attacker: Pokemon, defender: Pokemon, move: string) => {
     const result = calculate(
         gen,
         attacker,
@@ -63,14 +61,6 @@ export const isLetter = (str:string) => {
     return str.length === 1 && str.match(/[a-z]/i);
 }
 
-export const convertToShowdownDexName = (name: pokemonID) => {
-    return name.split('').filter(isLetter).map(toLower).join('')
-}
-
-export const getSpriteDir = (name: pokemonID) => {
-    return `/sprites/${getNumber(name)}.png`
-}
-
 export type Mutation<objType> = (o:objType)=>void
 
 export function applyMutation<objType>(mutate:Mutation<objType>){
@@ -79,4 +69,9 @@ export function applyMutation<objType>(mutate:Mutation<objType>){
         mutate(copy);
         return copy;
     }
+}
+
+export const percentageToColor = (percentage: number)=> {
+    var hue = ((1 - percentage) * 120).toString(10);
+    return ["hsl(", hue, ",100%,50%)"].join("");
 }

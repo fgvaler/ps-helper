@@ -1,5 +1,5 @@
 
-import { damage_range, import_team } from '@/lib/utils';
+import { damageRange, importTeam } from '@/lib/utils';
 import { NextResponse } from 'next/server'
 
 
@@ -68,10 +68,10 @@ IVs: 0 Atk
 - Shadow Ball  
 
 `;
-const team = import_team(raw_team);
+const team = importTeam(raw_team);
 
 
 export async function GET() {
-    const data = damage_range(team[1], team[5], 'stealthrock`');
+    const data = damageRange(team[1], team[5], 'stealthrock`');
     return NextResponse.json({ data });
 }
