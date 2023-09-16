@@ -1,6 +1,6 @@
 
-import { getMoveset, getSpriteDir } from "@/lib/pokedex";
-import { damageRange, gen, percentageToColor } from "@/lib/utils";
+import { getMoveset, getSpriteDir, damageRange, gen } from "@/lib/showdown_utils";
+import { percentageToColor } from "@/lib/utils";
 import { Pokemon } from "@ajhyndman/smogon-calc";
 
 export type PageContent = {

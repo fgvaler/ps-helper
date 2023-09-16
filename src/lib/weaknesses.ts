@@ -2,8 +2,7 @@
 import sortBy from 'lodash/sortBy';
 import map from 'lodash/map';
 import { Pokemon } from '@ajhyndman/smogon-calc';
-import { LegalPokemon, getUsage, getMoveset, pokemonID } from './pokedex';
-import { maxDamage, gen, minDamage } from './utils';
+import { LegalPokemon, getUsage, getMoveset, pokemonID, damageRange, gen } from './showdown_utils';
 
 const NUMBER_OF_THREATS_TO_RETRIEVE = 5;
 const RELEVANCE_USAGE_THRESHOLD = 0.01;
@@ -72,7 +71,7 @@ const minDamageToTeam = (attackerID: pokemonID, team: Pokemon[]) => {
                         team.map(defender=>
                             Math.max(...
                                 moves.map(move=>
-                                    maxDamage(attacker, defender, move)
+                                    damageRange(attacker, defender, move).max
                                 )
                             )
                         )
@@ -119,7 +118,7 @@ const maxDamageFromTeam = (defenderID: pokemonID, team: Pokemon[]) => {
                     const defending_score = 1-
                         Math.max(...team.flatMap(attacker=>
                             attacker.moves.map(move=>
-                                minDamage(attacker, defender, move)
+                                damageRange(attacker, defender, move).min
                             )
                         ));
 

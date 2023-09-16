@@ -1,6 +1,6 @@
 
-import { closestPokemonName } from "@/lib/game_insights";
-import { applyMutation, importTeam } from "@/lib/utils";
+import { closestPokemonName, importTeam } from "@/lib/showdown_utils";
+import { applyMutation } from "@/lib/utils";
 import { PageState } from "./state";
 
 export type PageAction = {
